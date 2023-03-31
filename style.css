@@ -40,8 +40,20 @@ body {
     max-width: 200px;
     max-height: 30px;
     padding: 5px;
-    border: 2px solid #5e510f; 
+    border: 2px solid #5e510f;
+    border-radius: 15px;
 }
+.aside-input-submit {
+    max-width: 150px;
+    max-height: 30px;
+    padding: 5px;
+    border: 2px solid #5e510f;
+    border-radius: 15px;
+}
+.aside-input-submit:hover{
+    background-color: #8a7920;
+}
+
 .bossphoto {
     max-width: 235px;
     max-height: 344px;
