@@ -83,6 +83,7 @@ body {
     max-width: 235px;
     max-height: 344px;
     align-self: center;
+    border-radius: 25%;
 }
 .main {
     display: flex;
