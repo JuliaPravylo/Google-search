@@ -36,8 +36,20 @@ body {
     padding: 20px 15px;
     margin: 0 auto;
 }
+.main_container {
+    align-items: center;
+    margin: 0 auto;
+    align-self: center;
+}
 .aside-input-text {
     max-width: 200px;
+    max-height: 30px;
+    padding: 5px;
+    border: 2px solid #5e510f;
+    border-radius: 15px;
+}
+.main-input-text {
+    min-width: 500px;
     max-height: 30px;
     padding: 5px;
     border: 2px solid #5e510f;
@@ -50,13 +62,21 @@ body {
     border: 2px solid #5e510f;
     border-radius: 15px;
 }
-.aside-input-submit:hover{
+.main-input-submit {
+    max-width: 150px;
+    max-height: 30px;
+    padding: 5px;
+    border: 2px solid #5e510f;
+    border-radius: 15px;
+}
+.main-input-submit, .aside-input-submit:hover{
     background-color: #8a7920;
 }
 
 .bossphoto {
     max-width: 235px;
     max-height: 344px;
+    align-self: center;
 }
 .main {
     display: flex;
